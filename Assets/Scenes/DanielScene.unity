@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4452387333833343401, guid: 37e488233792943439470333e5a25668, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.095652
+      value: 20.91
       objectReference: {fileID: 0}
     - target: {fileID: 4452387333833343401, guid: 37e488233792943439470333e5a25668, type: 3}
       propertyPath: m_LocalPosition.y
@@ -144,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4452387333833343401, guid: 37e488233792943439470333e5a25668, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -22.24815
+      value: -22.91
       objectReference: {fileID: 0}
     - target: {fileID: 4452387333833343401, guid: 37e488233792943439470333e5a25668, type: 3}
       propertyPath: m_LocalRotation.w
@@ -365,6 +365,10 @@ PrefabInstance:
     - target: {fileID: 7355399924929733234, guid: 30d9b9580755bc146b34b329870e2034, type: 3}
       propertyPath: m_Name
       value: Watermelon_2048
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355399924929733234, guid: 30d9b9580755bc146b34b329870e2034, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7879172816190273736, guid: 30d9b9580755bc146b34b329870e2034, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4580,6 +4584,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1777701550}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &9141524968016249970
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4552492913111133484, guid: 2d8242ece93739e448634697b07f7e43, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4552492913111133484, guid: 2d8242ece93739e448634697b07f7e43, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.699
+      objectReference: {fileID: 0}
+    - target: {fileID: 4552492913111133484, guid: 2d8242ece93739e448634697b07f7e43, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -21.965
+      objectReference: {fileID: 0}
+    - target: {fileID: 4552492913111133484, guid: 2d8242ece93739e448634697b07f7e43, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4552492913111133484, guid: 2d8242ece93739e448634697b07f7e43, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4552492913111133484, guid: 2d8242ece93739e448634697b07f7e43, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4552492913111133484, guid: 2d8242ece93739e448634697b07f7e43, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4552492913111133484, guid: 2d8242ece93739e448634697b07f7e43, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4552492913111133484, guid: 2d8242ece93739e448634697b07f7e43, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4552492913111133484, guid: 2d8242ece93739e448634697b07f7e43, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4890889525055955125, guid: 2d8242ece93739e448634697b07f7e43, type: 3}
+      propertyPath: m_Name
+      value: watermelonSeed
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d8242ece93739e448634697b07f7e43, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4595,3 +4656,4 @@ SceneRoots:
   - {fileID: 1777701550}
   - {fileID: 330033905}
   - {fileID: 140535270}
+  - {fileID: 9141524968016249970}
