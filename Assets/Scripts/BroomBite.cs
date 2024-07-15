@@ -7,25 +7,35 @@ public class BroomBite : MonoBehaviour
 {
 
     public GameObject mouthPos;
+    public bool inMouth;
+    
+    private Rigidbody _rb;
+    
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        _rb = GetComponent<Rigidbody>();
+        _rb.constraints = RigidbodyConstraints.FreezeAll;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (inMouth == true)
+        {
+            this.gameObject.transform.position = mouthPos.transform.position;
+            gameObject.transform.rotation = mouthPos.transform.rotation;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("MainCamera"))
         {
-            this.gameObject.transform.position = mouthPos.transform.position;
-            gameObject.transform.rotation = mouthPos.transform.rotation;
+            _rb.constraints = RigidbodyConstraints.None;
+
+            inMouth = true;
         }
     }
 }

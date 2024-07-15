@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class DiceLand : MonoBehaviour
 {
+
+    public AudioSource diceSound;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +24,7 @@ public class DiceLand : MonoBehaviour
     {
         if (other.CompareTag("Dice"))
         {
-            
+            diceSound.Play();
         }
     }
 }
