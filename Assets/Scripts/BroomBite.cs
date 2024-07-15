@@ -10,6 +10,7 @@ public class BroomBite : MonoBehaviour
     public bool inMouth;
     
     private Rigidbody _rb;
+    private AudioSource _audioSource;
     
     
     // Start is called before the first frame update
@@ -17,6 +18,8 @@ public class BroomBite : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody>();
         _rb.constraints = RigidbodyConstraints.FreezeAll;
+
+        _audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -36,6 +39,8 @@ public class BroomBite : MonoBehaviour
             _rb.constraints = RigidbodyConstraints.None;
 
             inMouth = true;
+            
+            _audioSource.Play();
         }
     }
 }
